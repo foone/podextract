@@ -12,6 +12,7 @@
 
 Known games using the POD2 format (which is NOT supported):
 
+ * Nocturne (1999)
  * 4x4 Evo (2000)
 
 Known Terminal Reality games which do not use POD:
