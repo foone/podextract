@@ -9,7 +9,11 @@ else:
 	pattern=sys.argv[2].upper()
 with open(podfile,'rb') as f:
 	f.seek(0)
-	num_files = struct.unpack('<L',f.read(4))[0]
+	header=f.read(4)
+	if header=='POD2':
+		print('This is a POD2 file: They are not supported!')
+		sys.exit()
+	num_files = struct.unpack('<L',header)[0]
 	f.seek(0x54)
 	for i in range(num_files):
 		parts=struct.unpack('<32sLL',f.read(0x28))

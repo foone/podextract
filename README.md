@@ -9,6 +9,11 @@
  * Monster Truck Madness (1996)
  * CART Precision Racing (1997)
 
+Known games using the POD2 format (which is NOT supported):
+
+ * 4x4 Evo (2000)
+
+
 # Usage: 
 
 Simply run:
