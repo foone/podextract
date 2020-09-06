@@ -13,7 +13,7 @@
 
 Simply run:
 
-``` python podextract.py PODNAME.pod "\*.MOD" ```
+``` python podextract.py PODNAME.pod "*.MOD" ```
 
 (Using python 2.7)
 
