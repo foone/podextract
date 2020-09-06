@@ -127,4 +127,6 @@ dmypy.json
 
 # extracted files
 MUSIC/
+ART/
+DATA/
 *.POD
