@@ -8,11 +8,15 @@
  * Hellbender (1996)
  * Monster Truck Madness (1996)
  * CART Precision Racing (1997)
+ * Monster Truck Madness 2 (1998)
 
 Known games using the POD2 format (which is NOT supported):
 
  * 4x4 Evo (2000)
 
+Known Terminal Reality games which do not use POD:
+
+ * Fly! (1999)
 
 # Usage: 
 
