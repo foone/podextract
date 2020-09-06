@@ -10,8 +10,8 @@ else:
 with open(podfile,'rb') as f:
 	f.seek(0)
 	header=f.read(4)
-	if header=='POD2':
-		print('This is a POD2 file: They are not supported!')
+	if header in ('POD2','POD3'):
+		print('This is a {} file: They are not supported!'.format(header))
 		sys.exit()
 	num_files = struct.unpack('<L',header)[0]
 	f.seek(0x54)

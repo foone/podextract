@@ -10,10 +10,11 @@
  * CART Precision Racing (1997)
  * Monster Truck Madness 2 (1998)
 
-Known games using the POD2 format (which is NOT supported):
+Known games using the POD2/POD3 formats (which are NOT supported):
 
  * Nocturne (1999)
  * 4x4 Evo (2000)
+ * BloodRayne (2002)
 
 Known Terminal Reality games which do not use POD:
 
